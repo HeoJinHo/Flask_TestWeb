@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>flask pagenation example</title>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div class="form-control">
+        {{ check }}
+    </div>
+    <form class="form-control" action="/login_check" method="post">
+        <label for="p_id">아이디</label>
+        <input type="text" class="form-control" id="p_id" name="p_id">
+        <label for="p_pwd">비밀번호</label>
+        <input type="password" class="form-control" id="p_pwd" name="p_pwd">
+        <br />
+        <button type="submit"class="btn btn-primary">로그인</button>
+    </form>
+
+  </body>
+</html>
